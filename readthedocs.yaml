@@ -30,8 +30,6 @@ sphinx:
 # python:
 #    install:
 #    - requirements: docs/requirements.txt
-
-# Declare the Python requirements required to build your documentation
 python:
    version: 3.12
    install:
@@ -40,4 +38,3 @@ python:
      - method: pip
        extra_requirements:
          - sphinx_rtd_theme
-
