@@ -24,17 +24,13 @@ sphinx:
 #    - pdf
 #    - epub
 
-# Optional but recommended, declare the Python requirements required
-# to build your documentation
-# See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
-# python:
-#    install:
-#    - requirements: docs/requirements.txt
+# Declare the Python requirements required to build your documentation
 python:
    version: 3.12
    install:
      - method: pip
        path: .
      - method: pip
-       extra_requirements:
+       requirements: 
          - sphinx_rtd_theme
+
