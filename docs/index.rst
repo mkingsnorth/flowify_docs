@@ -27,7 +27,7 @@ In the viewport, right-click in object mode and select 'Flowify'. By default, th
 
 #. Select the **Source Object**.
 #. Select a corner on the **Source Grid**.
-#. Select the equivalent corner on the **Target Grid**.
+#. Select the matching corner on the **Target Grid**.
 
 Then, the **Source Object** should be copied onto the Target Surface.
 
