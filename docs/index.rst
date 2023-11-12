@@ -10,7 +10,7 @@ Flowify
 What is Flowify?
 ---------------------------------
 
-Flowify is a Blender add-on for 3D modelers enabling them to bend objects along a quad surface with four corners.  This allows for the creation of interesting shapes that can be challenging to model otherwise.
+Flowify is a Blender add-on for 3D modelers enabling them to map an object to any quad surface with four corners.  This allows for the creation of interesting shapes that can be challenging to model otherwise.
 
 
 .. |Flowify| raw:: html
