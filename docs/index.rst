@@ -16,7 +16,7 @@ What is Flowify?
 
 .. image:: images/source_target_objects.jpg
 
-|Flowify| is a Blender add-on for 3D modelers that allows them to map an object, called the **Source Object**, to a surface object with evenly spaced four sided faces and four corners, called the **Target Surface**. A flat reference grid object called the **Source Grid** is used to guide the add-on.  This enables the creation of interesting objects that could be challenging to model otherwise.
+|Flowify| is a Blender add-on for 3D modelers that maps an object, called the **Source Object**, to a surface object with evenly spaced four sided faces and four corners, called the **Target Surface**. A flat reference grid object called the **Source Grid** is used to guide the add-on.  This enables the creation of interesting objects that could be challenging to model otherwise.
 
 .. note::
 
@@ -48,7 +48,13 @@ Features:
 * Use on regular objects, instanced objects and text (:ref:`As long as they have deformable topology<troubleshooting>`).
 * See the :ref:`Step By Step<howto>` guide for how to use.
 * Configure a Flowify :ref:`modifier<modifier_settings>` with additional options afterwards.
+* Can be used in Blender's |Quad View| mode:
 
+   .. image:: images/quad_view.png
+
+.. |Quad View| raw:: html
+
+   <a href="https://docs.blender.org/manual/en/latest/editors/3dview/navigate/views.html#quad-view" target="_blank">Quad View</a>
 
 -----------------
 Please Note!
