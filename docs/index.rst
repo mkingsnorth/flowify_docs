@@ -48,7 +48,7 @@ Features:
 * Use on regular objects, instanced objects and text (:ref:`As long as they have deformable topology<troubleshooting>`).
 * See the :ref:`Step By Step<howto>` guide for how to use.
 * Configure a Flowify :ref:`modifier<modifier_settings>` with additional options afterwards.
-* Can be used in Blender's |Quad View| mode:
+* Use optionally in Blender's |Quad View| mode:
 
    .. image:: images/quad_view.png
 
