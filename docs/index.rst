@@ -31,7 +31,7 @@ Features:
 
 * Change the Source Object and the result will be automatically updated.
 * Change the Target Surface and the result will automatically update as well.
-* Use on regular Objects, instanced objects and Text (:ref:`As long as they have deformable topology<troubleshooting>`).
+* Use on regular objects, instanced objects and text (:ref:`As long as they have deformable topology<troubleshooting>`).
 * See the :ref:`Step By Step<howto>` guide for how to use.
 * Configure a Flowify :ref:`modifier<modifier_settings>` with additional options afterwards.
 
