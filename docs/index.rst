@@ -18,9 +18,23 @@ What is Flowify?
 
 |Flowify| is a Blender add-on for 3D modelers that allows them to map an object, called the **Source Object**, to a surface object with evenly spaced four sided faces and four corners, called the **Target Surface**. A flat reference grid called the **Source Grid** is used to guide the add-on.  This enables the creation of interesting objects that could be challenging to model otherwise.
 
+.. note::
+
+    It is based on the |Flowify Sketchup plugin| of the same name, which is in turn based on the |MoveAlongSurf| command in Rhino.
+
 .. |Flowify| raw:: html
 
    <a href="https://blendermarket.com/products/flowify">Flowify</a>
+
+.. |Flowify Sketchup plugin| raw:: html
+
+   <a href="https://sketchucation.com/pluginstore?pln=flowify" target="_blank">Flowify Sketchup plugin</a>
+
+
+.. |MoveAlongSurf| raw:: html
+
+   <a href="https://docs.mcneel.com/rhino/5/help/en-us/commands/flowalongsrf.htm" target="_blank">MoveAlongSurf</a>
+
 
 
 -----------------
