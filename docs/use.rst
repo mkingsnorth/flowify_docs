@@ -13,14 +13,14 @@ Pre-Requisites
 
 .. image:: images/source_target_objects.jpg
 
-Onced :ref:`installed<installation>`, for Flowify to work in Blender you will need the following objects arranged as above:
+Once :ref:`installed<installation>`, for Flowify to work in Blender you will need the following objects arranged as above:
 
 #. The **Source Object** that you wish to deform.
 
     .. note::
-        The deformaton will only be as good as an object’s mesh topology.
+        The deformation will only be as good as an object’s mesh topology.
 
-#. A flat rectangular **Source Grid** to use as a reference for the surface.
+#. A flat rectangular **Source Grid** to use as a reference for the target surface.
 
     .. note::
         .. image:: images/source_grid.jpg
