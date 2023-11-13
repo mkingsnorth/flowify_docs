@@ -6,48 +6,61 @@
 Flowify
 ===================================
 
+
+.. image:: images/flowify_in_action.gif
+  :alt: Perspective Plotter at work
+
 ---------------------------------
 What is Flowify?
 ---------------------------------
 
-Flowify is a Blender add-on for 3D modelers enabling them to map an object to any quad surface with four corners.  This allows for the creation of interesting shapes that can be challenging to model otherwise.
-
+|Flowify| is a Blender add-on for 3D modelers that allows them to map a Source Object to any quad based Target Surface object with four corners.  This enables the creation of interesting objects that could be challenging to model otherwise.
 
 .. |Flowify| raw:: html
 
-   <a href="https://blendermarket.com/products/flowify">Conform Object</a>
-
-For Flowify to work in Blender you will need:
-
-#. The **Source Object** that you wish to deform
-#. The flat rectangular **Source Grid** to use as a reference for the surface.
-#. The **Target Surface** consisting of quad faces with 4 distinct corners.
-
-In the viewport, right-click in object mode and select 'Flowify'. By default, the viewport will change to face orientation mode to make sure the faces of the **Source Grid** and **Target Grid** are pointing in the same direction (ie the same blue colour). Then:
-
-#. Select the **Source Object**.
-#. Select a corner on the **Source Grid**.
-#. Select the matching corner on the **Target Grid**.
-
-Then, the **Source Object** should be copied onto the Target Surface.
-
-.. note::
-    If you're having any trouble and it is not answered here, don't hesitate to :ref:`contact us<Contact>`.
+   <a href="https://blendermarket.com/products/flowify">Flowify</a>
 
 
 -----------------
 Features:
 -----------------
 
-* A quick interactive workflow allows for the quick creation once the objects are set up.
-* Simple right-click menu option starts.
-* Any changes to the original object are automatically updated.
+.. image:: images/move_demo.gif
+
+* Change the Source Object and the result will be automatically updated.
+* Change the Target Surface and the result will automatically updated as well.
+* Use on regular Objects, instanced objects and Text (:ref:`As long as they have deformable topology<troubleshooting>`).
+* See the :ref:`Step By Step<howto>` guide for how to use.
+* Configure a Flowify :ref:`modifier<modifier_settings>` with additional options afterwards.
+
+
+-----------------
+Please Note!
+-----------------
+
+The deformaton will only be as good as an Source Object's mesh topology.
+
+--------------------------------------------------------------------
+Differences to the |Conform Object| add-on:
+--------------------------------------------------------------------
+
+* |Flowify| is designed for larger objects and objects with fixed boundaries, with a greater set up time than Conform Object.
+* |Conform Object| is a better tool for conforming smaller objects, with less set up time required.
+
+.. |Conform Object| raw:: html
+
+   <a href="https://blendermarket.com/products/conform-object">Conform Object</a>
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
+   installation
+   use
+   settings
+   preferences
+   troubleshooting
    contact
 
 
