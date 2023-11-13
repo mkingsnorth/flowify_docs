@@ -19,7 +19,7 @@ This occurs when the object does not have topology (Faces, Edges and Vertices) t
 
 To resolve this, depending on what the object is needed for you can:
 
-#. Manually retopologise the Source Object into  Quad Topology so that it can be more easily deformed;
+#. Manually retopologise the Source Object into quad based topology so that it can be more easily deformed;
 #. Alternatively, you can add to the Source Object a *Remesh* modifier with a relatively small Voxel Setting (careful with smaller values that can crash Blender) combined with a *Smooth* modifier set to a high number of iterations (100-200) to smooth the result. This can work in cases where poly count matters less, such as Rendering or 3D Print applications:
 
     .. image:: images/text_fixed_1.jpg
