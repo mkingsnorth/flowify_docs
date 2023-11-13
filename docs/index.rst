@@ -47,7 +47,7 @@ Differences to the |Conform Object| add-on:
 --------------------------------------------------------------------
 
 * |Flowify| is designed for larger objects and objects with fixed boundaries, with a greater set up time than Conform Object.
-* |Conform Object| is a better tool for conforming smaller objects, with less set up time required.
+* |Conform Object| is a better tool for conforming smaller objects, with less set up time required than Flowify.
 
 .. |Conform Object| raw:: html
 
