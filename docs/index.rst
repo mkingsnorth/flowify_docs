@@ -66,8 +66,31 @@ The deformation will only be as good as a Source Object's mesh topology.
 Differences to the |Conform Object| add-on:
 --------------------------------------------------------------------
 
-* |Flowify| is designed for larger objects and objects with fixed boundaries, with a greater set up time than Conform Object.
-* |Conform Object| is a better tool for conforming smaller objects, with less set up time required than Flowify.
+Workflow Approach:
+^^^^^^^^^^^^^^^^^^^^^
+
+* |Conform Object|: Offers a one-click workflow designed for efficiency and minimal setup time, making it more useful for quick tasks.
+* |Flowify|: Requires some initial setup but offers a more detailed workflow. Tailored for users who need more control and customization in their projects.
+
+Projection Capabilities:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* |Conform Object|: Suited for projecting objects in a single direction onto any surface. Ideal for simple, straightforward surface projections.
+* |Flowify|: Specializes in wrapping objects onto a custom-designed target surface with exactly four corners of quad faces. This feature allows Flowify to handle a wider variety of objects and directions for more complex wrapping tasks.
+
+Suitability for Surface Types:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* |Conform Object|: Projects smaller objects to the existing surfaces of larger objects, making it ideal for simpler, more direct projections.
+* |Flowify|: Able to wrap objects around complex surface shapes, offering more flexibility for advanced modeling requirements.
+
+Preset System:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* |Conform Object|: Includes a presets system for saving and applying settings for repeated tasks.
+* |Flowify|: Currently does not have a presets system, catering to users who prefer manual control over each project's unique requirements.
+
+If you are undecided about which add-on suits your needs, don't hesitate to :ref:`Contact Us<contact>`
 
 .. |Conform Object| raw:: html
 
