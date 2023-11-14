@@ -55,3 +55,9 @@ I cannot edit the flowify object after it has been created
 The object is a linked copy of the original Source Object, and cannot itself be edited.  Instead, editing the Source Object will change the resulting flowify object.  If you wish to edit the Source Object, apply the Flowify Modifier which will unlink the object from the original Source Object it was created from.
 
     .. image:: images/collapse_modifier.jpg
+
+============================================================================================================
+Nothing happens when I run Flowify!
+============================================================================================================
+
+This may be because the target surface has been created with modifiers that have invalidated the grid.  Try applying any modifiers on the target surface.  If this does not work :ref:`do get in touch<contact>` and we will diagnose the problem.
