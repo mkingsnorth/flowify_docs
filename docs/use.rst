@@ -43,7 +43,7 @@ Once :ref:`installed<installation>`, for Flowify to work in Blender you will nee
         
         The target surface should also consist of 4 sided faces with 4 distinct corners.  Its face direction (or |normals|) should also match the Source Grid. 
 
-    .. note::
+    .. warning::
         If modifiers such as the Array modifier have been added to the Target Surface, the add-on may not work properly.  Try applying modifiers like the Array modifier first.  Subdivision Surface modifiers should work, and if you have any issues do :ref:`contact us<contact>`.
   
 .. |Loop Tools| raw:: html
