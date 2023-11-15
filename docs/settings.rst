@@ -37,6 +37,8 @@ The name of the grid like UV Map on the Target Surface.
 Height
 --------------
 
+.. image:: images/height_control.gif
+
 This controls the relative height of the mesh which the add-on makes an initial guess for based on the height of the Source Object.  Changing this value multiplies the default height that has been set.
 
 In Bounds
