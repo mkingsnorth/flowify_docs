@@ -106,6 +106,7 @@ If you are undecided about which add-on suits your needs, don't hesitate to :ref
    settings
    preferences
    troubleshooting
+   how_does_it_work
    contact
 
 

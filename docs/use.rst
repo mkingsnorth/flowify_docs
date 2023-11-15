@@ -8,24 +8,30 @@ How To Use
 .. note::
     If you're having any trouble, don't hesitate to :ref:`contact us<Contact>`.
 
-Pre-Requisites
+Set up Objects
 ------------------------
 
 .. image:: images/source_target_objects.jpg
 
 Once :ref:`installed<installation>`, for Flowify to work in Blender you will need the following objects arranged as above:
 
+.. _source_object:
+
 #. The **Source Object** that you wish to deform.
 
     .. note::
         The deformation will only be as good as an object’s mesh topology.
 
-#. A flat rectangular **Source Grid** to use as a reference for the target surface.
+.. _source_grid:
+
+#. A flat rectangular **Source Grid** to use as a reference for the Target Surface.  This should be in a relative position to where you want the Source Object mapped to the Target Surface.
 
     .. note::
         .. image:: images/source_grid.jpg
         
         Flowify understands a source grid to consist of 4 sided faces with 4 distinct corners and to be entirely flat.  Its face direction (or |normals|) should also match the Target Surface.
+
+.. _target_surface:
 
 #. An irregularly shaped **Target Surface** consisting of **evenly spaced** 4 sided faces with 4 distinct corners.
 
@@ -37,6 +43,9 @@ Once :ref:`installed<installation>`, for Flowify to work in Blender you will nee
         
         The target surface should also consist of 4 sided faces with 4 distinct corners.  Its face direction (or |normals|) should also match the Source Grid. 
 
+    .. note::
+        If modifiers such as the Array modifier have been added to the Target Surface, the add-on may not work properly.  Try applying modifiers like the Array modifier first.  Subdivision Surface modifiers should work, and if you have any issues do :ref:`contact us<contact>`.
+  
 .. |Loop Tools| raw:: html
 
    <a href="https://docs.blender.org/manual/en/latest/addons/mesh/looptools.html" target="_blank">Loop Tools</a>
@@ -82,7 +91,7 @@ The workflow is as follows:
     .. note:: 
         It is important that the corner of the **Source Grid** is aligned to the same representative corner on the **Target Surface** to match the correct orientation.
 
-#. The **Source Object** should be mapped onto the Target Surface in a new object called *Source Object* + *Flowify*. 
+#. The **Source Object** should be mapped onto the Target Surface in a new object called *Source Object* + *Flowify*. The **Source Grid** is subdivided into faces that you can use as a reference for the position of the **Source Object** on the **Target Surface**.
     
    In this object, there is a :ref:`Flowify Modifier<modifier_settings>` which has :ref:`additional settings<modifier_settings>`:
 

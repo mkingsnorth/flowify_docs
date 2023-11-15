@@ -32,7 +32,12 @@ The Target Surface grid used to deform the Source Object.
 UV Map
 -----------
 
-The name of the grid like UV Map on the Target Surface
+The name of the grid like UV Map on the Target Surface.
+
+Height
+--------------
+
+This controls the relative height of the mesh which the add-on makes an initial guess for based on the height of the Source Object.  Changing this value multiplies the default height that has been set.
 
 In Bounds
 -----------------
