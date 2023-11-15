@@ -16,3 +16,7 @@ When running the Flowify operation, this will automatically switch the viewport 
    
    Good and bad face orientations. Both matching sides of the source and the target surface objects should be blue for the add-on to work correctly.  Red faces denote inverted faces.
 
+Delete old Flowify Object
+---------------------------------------
+
+By default the add-on will always delete the old Flowify object whilst running.  This can be disabled so the original object is retained as well.
