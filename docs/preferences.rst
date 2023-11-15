@@ -19,4 +19,4 @@ When running the Flowify operation, this will automatically switch the viewport 
 Delete old Flowify Object
 ---------------------------------------
 
-By default the add-on will always delete the old Flowify object whilst running.  This can be disabled so the original object is retained as well.
+When enabled the add-on will always delete the old Flowify object of the same name whilst running.  If disabled the original object is retained.
