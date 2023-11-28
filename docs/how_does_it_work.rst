@@ -18,9 +18,9 @@ Understanding how the add-on works may help you debug any issues and do :ref:`co
 
         This images shows a red line where a single vertex is mapped from the Source Object:  It takes the relative position on the Source Grid, and then uses this to calculate the relative position on the Target Grid.  The add-on does this for each vertex.
 
-    .. warning:: Because of this method, adding modifiers like the Array modifier on top of the Target Surface may create overlapping UVs that the add-on cannot process, which may result in empty objects.  
+    .. warning:: Because of this method, adding modifiers like the Array or Solidify modifier on top of the Target Surface may create overlapping UVs that the add-on cannot process, which may result in empty objects.  
         
-                Hopefully in the future the UV Map generation can be handled in the future by Geometry Nodes, which would make it more flexible.
+                Hopefully in the future the UV Map generation can be handled by Geometry Nodes, which would make it more flexible.
 
 #.  Once this is done, the new object is added to the Blender scene.  The Geometry Nodes modifier has then some :ref:`additional settings<settings>` that you can change.
 

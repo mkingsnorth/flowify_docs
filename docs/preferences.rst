@@ -20,3 +20,8 @@ Delete old Flowify Object
 ---------------------------------------
 
 When enabled the add-on will always delete the old Flowify object of the same name whilst running.  If disabled the original object is retained.
+
+Move Original Objects to Collection
+---------------------------------------
+
+Move the original set up objects into their own Flowify collection when the add-on is run so you can quickly show/hide the original objects.

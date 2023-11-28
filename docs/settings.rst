@@ -41,6 +41,16 @@ Height
 
 This controls the relative height of the mesh which the add-on makes an initial guess for based on the height of the Source Object.  Changing this value multiplies the default height that has been set.
 
+Source Object Merge Distance
+----------------------------------------
+
+Merge vertices on the Target Surface when processing (Zero = No Merge).  This is useful for "knitting together" the ends of a cylindrical surface.  The original Target Surface is not affected, only the one being copied for processing.
+
+Source Object Merge Distance
+--------------------------------------------------
+
+Merge vertices on the Source Object when processing (Zero = No Merge).  This is useful for "knitting together" the ends of a cylindrical object.  The original Source Object is not affected, only the one being copied for processing.
+
 In Bounds
 -----------------
 

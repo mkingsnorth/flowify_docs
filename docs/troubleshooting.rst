@@ -13,7 +13,7 @@ When using on objects like Text, I get a jagged result.
 
 .. image:: images/jagged_text.jpg
 
-This occurs when the object does not have topology (Faces, Edges and Vertices) that allow it to be deformed well:
+This occurs when the object does not have clean/sufficient topology (Faces, Edges and Vertices) that allow it to be deformed well:
 
 .. image:: images/jagged_text_bad_topo.jpg
 
@@ -55,6 +55,13 @@ I cannot edit the flowify object after it has been created
 The object is a linked copy of the original Source Object, and cannot itself be edited.  Instead, editing the Source Object will change the resulting flowify object.  If you wish to edit the Source Object, apply the Flowify Modifier which will unlink the object from the original Source Object it was created from.
 
     .. image:: images/collapse_modifier.jpg
+
+
+============================================================================================================
+When adding AutoSmooth to the Flowify object, nothing happens
+============================================================================================================
+
+As the Flowify object is inheriting everything from the original Source Object, adding AutoSmooth on the new Flowify Object will not work. If you set AutoSmooth on the Source Object it should be carried over to the new Flowify object, however.
 
 ============================================================================================================
 Nothing happens when I run Flowify!
