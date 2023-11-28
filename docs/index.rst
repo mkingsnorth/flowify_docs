@@ -16,7 +16,9 @@ What is Flowify?
 
 .. image:: images/source_target_objects.jpg
 
-|Flowify| is a Blender add-on for 3D modelers that bends an object, called the **Source Object**, to a surface object with evenly spaced four sided faces and four corners, called the **Target Surface**. A flat reference grid object called the **Source Grid** is used to guide the add-on.  All these objects are created by the modeler themselves as regular objects, and the add-on uses these objects to generate the result.
+|Flowify| is a Blender add-on for 3D modelers that bends an object, called the **Source Object**, to a surface object with evenly spaced four sided faces and four corners, called the **Target Surface**. A flat reference grid object called the **Source Grid** is used to guide the add-on.  
+
+All these objects are created by the modeler themselves as regular objects, and the add-on uses these objects to generate the result.
 
 This enables the creation of interesting objects that could be challenging to model otherwise.
 
