@@ -15,16 +15,16 @@ Set up Objects
 
 Once :ref:`installed<installation>`, for Flowify to work in Blender you will need to create the following objects arranged as above:
 
-.. _source_object:
+#. .. _source_object:
 
-#. The **Source Object** that you wish to deform.
+    The **Source Object** that you wish to deform.
 
     .. note::
         The deformation will only be as good as an object’s mesh topology (Faces and Edges).  You may need to add extra faces, edges or edge loops for the object to bend well.
 
-.. _source_grid:
+#. .. _source_grid: 
 
-#. A flat rectangular **Source Grid** to use as a reference for the :ref:`Target Surface<target_surface>`.  This should be in a relative position to where you want the Source Object mapped to the Target Surface.
+    A flat rectangular **Source Grid** to use as a reference for the :ref:`Target Surface<target_surface>`.  This should be in a relative position to where you want the Source Object mapped to the Target Surface.
 
     .. note::
         .. image:: images/source_grid.jpg
@@ -33,10 +33,9 @@ Once :ref:`installed<installation>`, for Flowify to work in Blender you will nee
 
         The Source Grid can be a simple single-faced rectangle and does not need to have the same number of faces as the :ref:`Target Surface<target_surface>`.
 
-.. _target_surface:
+#.  .. _target_surface:
 
-#. An irregularly shaped **Target Surface** consisting of **evenly spaced** 4 sided faces with 4 distinct corners.
-
+    An irregularly shaped **Target Surface** consisting of **evenly spaced** 4 sided faces with 4 distinct corners.
 
     .. note::
         .. image:: images/target_grid.jpg
