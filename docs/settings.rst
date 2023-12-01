@@ -46,10 +46,20 @@ Source Object Merge Distance
 
 Merge vertices on the Target Surface when processing (Zero = No Merge).  This is useful for "knitting together" the ends of a cylindrical surface.  The original Target Surface is not affected, only the one being copied for processing.
 
-Source Object Merge Distance
+Source Object Merge Vertex Group
+----------------------------------------
+
+When merging vertices, use a vertex group you have added to the original Source Object to restrict the merge.
+
+Target Object Merge Distance
 --------------------------------------------------
 
 Merge vertices on the Source Object when processing (Zero = No Merge).  This is useful for "knitting together" the ends of a cylindrical object.  The original Source Object is not affected, only the one being copied for processing.
+
+Target Object Merge Vertex Group
+----------------------------------------
+
+When merging vertices, use a vertex group you have added to the original Target Surface to restrict the merge.
 
 In Bounds
 -----------------
