@@ -19,9 +19,8 @@ Installation
 .. image:: images/install_screen.jpg
   :alt: Flowify Installed
 
-###################
 Upgrading
-###################
+--------------------------------------
 
 #. In Blender, Go to *Edit* -> *Preferences*.
 #. Find the *Flowify* add-on entry, expand the entry and click the *Remove* button. This wil remove the old version of the add-on.
