@@ -16,6 +16,12 @@ When running the Flowify operation, this will automatically switch the viewport 
    
    Good and bad face orientations. Both matching sides of the source and the target surface objects should be blue for the add-on to work correctly.  Red faces denote inverted faces.
 
+Subdivide Source Grid
+---------------------------------------
+
+This will automatically subdivide the Source Grid to the same number of subdivisions at the Target Surface.
+
+
 Delete old Flowify Object
 ---------------------------------------
 
@@ -25,3 +31,24 @@ Move Original Objects to Collection
 ---------------------------------------
 
 Move the original set up objects into their own Flowify collection when the add-on is run so you can quickly show/hide the original objects.
+
+
+Possible Source Color
+-------------------------
+
+The color to be used when hovering over a possible corner.
+
+Confirmed Source Color
+-------------------------
+
+When a corner has been confirmed the color will change to this.
+
+Main Line Color
+-------------------------
+
+The color of the main line used for matching corners.
+
+Supporting Line Color
+-------------------------
+
+The color of the supporting lines between the other matching corners.
