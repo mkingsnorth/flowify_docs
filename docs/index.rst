@@ -51,6 +51,7 @@ Features:
 * Change the Target Surface and the result will automatically update as well.
 * Use on regular objects, instanced objects and text (:ref:`As long as they have deformable topology<troubleshooting>`).
 * Materials will be copied over to as well.
+* Automatically create the flat reference Source Grid from an existing Target Surface.
 * See the :ref:`Step By Step<howto>` guide for how to use.
 * Configure a Flowify :ref:`modifier<modifier_settings>` with additional options afterwards.
 * Use optionally in Blender's |Quad View| mode:
@@ -109,6 +110,7 @@ If you are undecided about which add-on suits your needs, don't hesitate to :ref
    installation
    use
    settings
+   tools
    preferences
    troubleshooting
    how_does_it_work

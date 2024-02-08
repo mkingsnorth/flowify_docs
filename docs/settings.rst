@@ -7,7 +7,7 @@ Settings
 .. _modifier_settings:
 
 ======================================================
-Modifer settings
+Modifier settings
 ======================================================
 
 If the resulting Flowify object is selected, there is a Flowify *Geometry Nodes* Modifier that has additional settings for the add-on:
