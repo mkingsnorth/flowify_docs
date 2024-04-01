@@ -37,7 +37,7 @@ This enables the creation of interesting objects that could be challenging to mo
 
 .. |MoveAlongSurf| raw:: html
 
-   <a href="https://docs.mcneel.com/rhino/5/help/en-us/commands/flowalongsrf.htm" target="_blank">Flow ALong Surface (MoveAlongSurf)</a>
+   <a href="https://docs.mcneel.com/rhino/5/help/en-us/commands/flowalongsrf.htm" target="_blank">Flow Along Surface (MoveAlongSurf)</a>
 
 
 
