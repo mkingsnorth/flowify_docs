@@ -109,6 +109,8 @@ The workflow is as follows:
 
     .. image:: images/source_grid_corner_circle.jpg
 
+    .. tip:: 
+        If the corner is not detected, try hiding any objects in the scene that might be overlapping with the corner.
 
     .. note::
         For cylindrical target surfaces, *always* select the "Top Left" corner of the source grid:

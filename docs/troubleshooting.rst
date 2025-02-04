@@ -8,6 +8,12 @@ Tips and Troubleshooting
     If you're having any trouble and it is not answered here, don't hesitate to :ref:`contact us<Contact>`.
 
 ============================================================================================================
+When clicking for a grid corner, nothing happens.
+============================================================================================================
+
+This can happen if the corner is not detected because of other objects in the scene overlapping it.  Try hiding any objects in the scene that might be overlapping with the corner.
+
+============================================================================================================
 When using on objects like Text, I get a jagged result.
 ============================================================================================================
 
